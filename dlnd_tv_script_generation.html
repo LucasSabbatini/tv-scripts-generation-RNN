@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>dlnd_tv_script_generation</title><script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/D5B39FCF-8614-3C41-8279-C4A30BAA7FBF/main.js" charset="UTF-8"></script><script src="https://unpkg.com/jupyter-js-widgets@2.0.*/dist/embed.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>dlnd_tv_script_generation</title><script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/D5B39FCF-8614-3C41-8279-C4A30BAA7FBF/main.js" charset="UTF-8"></script><script src="https://unpkg.com/jupyter-js-widgets@2.0.*/dist/embed.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11726,9 +11726,7 @@ body {
 div#notebook {
   overflow: visible;
   border-top: none;
-}
-
-@media print {
+}@media print {
   div.cell {
     display: block;
     page-break-inside: avoid;
@@ -11749,7 +11747,7 @@ div#notebook {
 
 <!-- Loading mathjax macro -->
 <!-- Load mathjax -->
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
     <!-- MathJax configuration -->
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -11773,8 +11771,7 @@ div#notebook {
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -11805,8 +11802,7 @@ div#notebook {
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -11853,7 +11849,9 @@ div#notebook {
 
 
 <div class="output_area">
+
 <div class="prompt"></div>
+
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Dataset Stats
@@ -11882,8 +11880,7 @@ Homer_Simpson: You know, if you tip the glass, there won&#39;t be so much foam o
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -11924,7 +11921,6 @@ Homer_Simpson: You know, if you tip the glass, there won&#39;t be so much foam o
     <span class="c1"># vocab in decreasing order of frequency</span>
     <span class="n">vocab</span> <span class="o">=</span> <span class="p">[</span><span class="n">word</span> <span class="k">for</span> <span class="n">word</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">counts</span><span class="o">.</span><span class="n">most_common</span><span class="p">()]</span>
 
-    
     <span class="c1"># int to vocab dictionary. Starting at one for padding later</span>
     <span class="n">int_to_vocab</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">enumerate</span><span class="p">(</span><span class="n">vocab</span><span class="p">))</span>
     
@@ -11950,7 +11946,9 @@ Homer_Simpson: You know, if you tip the glass, there won&#39;t be so much foam o
 
 
 <div class="output_area">
+
 <div class="prompt"></div>
+
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Tests Passed
@@ -11962,8 +11960,7 @@ Homer_Simpson: You know, if you tip the glass, there won&#39;t be so much foam o
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12016,7 +12013,9 @@ Homer_Simpson: You know, if you tip the glass, there won&#39;t be so much foam o
 
 
 <div class="output_area">
+
 <div class="prompt"></div>
+
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Tests Passed
@@ -12028,8 +12027,7 @@ Homer_Simpson: You know, if you tip the glass, there won&#39;t be so much foam o
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12055,8 +12053,7 @@ Homer_Simpson: You know, if you tip the glass, there won&#39;t be so much foam o
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12085,8 +12082,7 @@ Homer_Simpson: You know, if you tip the glass, there won&#39;t be so much foam o
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12135,7 +12131,9 @@ Homer_Simpson: You know, if you tip the glass, there won&#39;t be so much foam o
 
 
 <div class="output_area">
+
 <div class="prompt"></div>
+
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>TensorFlow Version: 1.0.1
@@ -12148,8 +12146,7 @@ Default GPU Device: /gpu:0
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12194,7 +12191,9 @@ Default GPU Device: /gpu:0
 
 
 <div class="output_area">
+
 <div class="prompt"></div>
+
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Tests Passed
@@ -12206,8 +12205,7 @@ Default GPU Device: /gpu:0
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12236,20 +12234,16 @@ Default GPU Device: /gpu:0
 <span class="sd">    :param rnn_size: Size of RNNs</span>
 <span class="sd">    :return: Tuple (cell, initialize state)</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="c1"># TODO: Implement Function</span>
     
-    <span class="c1"># basic lstm</span>
     <span class="n">lstm</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">contrib</span><span class="o">.</span><span class="n">rnn</span><span class="o">.</span><span class="n">BasicLSTMCell</span><span class="p">(</span><span class="n">rnn_size</span><span class="p">)</span>
     
-    <span class="n">drop</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">contrib</span><span class="o">.</span><span class="n">rnn</span><span class="o">.</span><span class="n">DropoutWrapper</span><span class="p">(</span><span class="n">lstm</span><span class="p">,</span> <span class="n">output_keep_prob</span><span class="o">=</span><span class="mf">0.8</span><span class="p">)</span>
+    <span class="n">drop</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">contrib</span><span class="o">.</span><span class="n">rnn</span><span class="o">.</span><span class="n">DropoutWrapper</span><span class="p">(</span><span class="n">lstm</span><span class="p">,</span> <span class="n">output_keep_prob</span><span class="o">=</span><span class="mf">0.75</span><span class="p">)</span>
     
     <span class="c1"># mutiRNN cell with one layer</span>
     <span class="n">cell</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">contrib</span><span class="o">.</span><span class="n">rnn</span><span class="o">.</span><span class="n">MultiRNNCell</span><span class="p">([</span><span class="n">drop</span><span class="p">]</span><span class="o">*</span><span class="mi">1</span><span class="p">)</span>
     
-    <span class="c1"># initial_state</span>
     <span class="n">initial_state</span> <span class="o">=</span> <span class="n">cell</span><span class="o">.</span><span class="n">zero_state</span><span class="p">(</span><span class="n">batch_size</span><span class="p">,</span> <span class="n">tf</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span>
     
-    <span class="c1"># initial_state name</span>
     <span class="n">initial_state</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">identity</span><span class="p">(</span><span class="n">initial_state</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;initial_state&#39;</span><span class="p">)</span>
     
     <span class="k">return</span> <span class="n">cell</span><span class="p">,</span> <span class="n">initial_state</span>
@@ -12270,7 +12264,9 @@ Default GPU Device: /gpu:0
 
 
 <div class="output_area">
+
 <div class="prompt"></div>
+
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Tests Passed
@@ -12282,8 +12278,7 @@ Default GPU Device: /gpu:0
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12305,10 +12300,9 @@ Default GPU Device: /gpu:0
 <span class="sd">    :param embed_dim: Number of embedding dimensions</span>
 <span class="sd">    :return: Embedded input.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="c1"># embedding layer with size (vocab_size, embed_dim)</span>
+
     <span class="n">embedding</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">random_uniform</span><span class="p">((</span><span class="n">vocab_size</span><span class="p">,</span> <span class="n">embed_dim</span><span class="p">),</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
     
-    <span class="c1"># Applying embedding</span>
     <span class="n">embed</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">embedding_lookup</span><span class="p">(</span><span class="n">embedding</span><span class="p">,</span> <span class="n">input_data</span><span class="p">)</span>
     
     <span class="k">return</span> <span class="n">embed</span>
@@ -12328,7 +12322,9 @@ Default GPU Device: /gpu:0
 
 
 <div class="output_area">
+
 <div class="prompt"></div>
+
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Tests Passed
@@ -12340,8 +12336,7 @@ Default GPU Device: /gpu:0
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12369,9 +12364,7 @@ Default GPU Device: /gpu:0
 <span class="sd">    :param inputs: Input text data</span>
 <span class="sd">    :return: Tuple (Outputs, Final State)</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="c1"># TODO: Implement Function</span>
     
-    <span class="c1">#with tf.name_scope(&quot;RNN_forward&quot;):</span>
     <span class="n">outputs</span><span class="p">,</span> <span class="n">final_state</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">dynamic_rnn</span><span class="p">(</span><span class="n">cell</span><span class="p">,</span> <span class="n">inputs</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">tf</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span>
     
     <span class="n">final_state</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">identity</span><span class="p">(</span><span class="n">final_state</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;final_state&#39;</span><span class="p">)</span>
@@ -12394,7 +12387,9 @@ Default GPU Device: /gpu:0
 
 
 <div class="output_area">
+
 <div class="prompt"></div>
+
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Tests Passed
@@ -12406,8 +12401,7 @@ Default GPU Device: /gpu:0
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12437,8 +12431,6 @@ Default GPU Device: /gpu:0
 <span class="sd">    :param embed_dim: Number of embedding dimensions</span>
 <span class="sd">    :return: Tuple (Logits, FinalState)</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="c1"># TODO: Implement Function</span>
-    
     
     <span class="c1"># First layer. Applying embedding</span>
     <span class="n">embedded</span> <span class="o">=</span> <span class="n">get_embed</span><span class="p">(</span><span class="n">input_data</span><span class="p">,</span> <span class="n">vocab_size</span><span class="p">,</span> <span class="n">embed_dim</span><span class="p">)</span>
@@ -12446,8 +12438,11 @@ Default GPU Device: /gpu:0
     <span class="c1"># build_rnn</span>
     <span class="n">rnn_outputs</span><span class="p">,</span> <span class="n">final_state</span> <span class="o">=</span> <span class="n">build_rnn</span><span class="p">(</span><span class="n">cell</span><span class="p">,</span> <span class="n">embedded</span><span class="p">)</span>
     
-    <span class="c1"># fully connected layer. NO ACTIVATION  </span>
-    <span class="n">logits</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">contrib</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">fully_connected</span><span class="p">(</span><span class="n">rnn_outputs</span><span class="p">,</span> <span class="n">vocab_size</span><span class="p">,</span> <span class="n">weights_initializer</span><span class="o">=</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal_initializer</span><span class="p">(</span><span class="n">mean</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span> <span class="n">stddev</span><span class="o">=</span><span class="mf">0.1</span><span class="p">))</span>
+    <span class="c1"># fully connected layer with linear activation  </span>
+    <span class="n">logits</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">contrib</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">fully_connected</span><span class="p">(</span><span class="n">rnn_outputs</span><span class="p">,</span> 
+                                               <span class="n">vocab_size</span><span class="p">,</span> 
+                                               <span class="n">activation_fn</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> 
+                                               <span class="n">weights_initializer</span><span class="o">=</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal_initializer</span><span class="p">(</span><span class="n">mean</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span> <span class="n">stddev</span><span class="o">=</span><span class="mf">0.1</span><span class="p">))</span>
     
     
     <span class="k">return</span> <span class="n">logits</span><span class="p">,</span> <span class="n">final_state</span>
@@ -12468,7 +12463,9 @@ Default GPU Device: /gpu:0
 
 
 <div class="output_area">
+
 <div class="prompt"></div>
+
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Tests Passed
@@ -12480,8 +12477,7 @@ Default GPU Device: /gpu:0
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12525,7 +12521,7 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_batches</span><span class="p">(</span><span class="n">int_text</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">,</span> <span class="n">seq_length</span><span class="p">):</span>
@@ -12536,7 +12532,6 @@ Default GPU Device: /gpu:0
 <span class="sd">    :param seq_length: The length of sequence</span>
 <span class="sd">    :return: Batches as a Numpy array</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="c1"># TODO: Implement Function</span>
     
     <span class="n">elements_in_batch</span> <span class="o">=</span> <span class="n">batch_size</span><span class="o">*</span><span class="n">seq_length</span>
     
@@ -12544,10 +12539,10 @@ Default GPU Device: /gpu:0
     
     <span class="c1"># only full batches</span>
     <span class="n">inputs</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">int_text</span><span class="p">[:</span><span class="n">n_batches</span><span class="o">*</span><span class="n">elements_in_batch</span><span class="p">])</span>
-    <span class="c1"># reshaping the text</span>
-    <span class="n">inputs</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">inputs</span><span class="p">,</span> <span class="p">[</span><span class="n">batch_size</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">])</span>
     
-    <span class="c1"># creating batches array</span>
+    <span class="c1"># reshaping the text to form batch_size rows</span>
+    <span class="n">inputs</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">inputs</span><span class="p">,</span> <span class="p">[</span><span class="n">batch_size</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+
     <span class="n">batches</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">n_batches</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">,</span> <span class="n">seq_length</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">int64</span><span class="p">)</span>
         
     <span class="n">current</span> <span class="o">=</span> <span class="mi">0</span>
@@ -12583,7 +12578,9 @@ Default GPU Device: /gpu:0
 
 
 <div class="output_area">
+
 <div class="prompt"></div>
+
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Tests Passed
@@ -12595,8 +12592,7 @@ Default GPU Device: /gpu:0
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12620,7 +12616,7 @@ Default GPU Device: /gpu:0
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Number of Epochs</span>
-<span class="n">num_epochs</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">num_epochs</span> <span class="o">=</span> <span class="mi">200</span>
 <span class="c1"># Batch Size</span>
 <span class="n">batch_size</span> <span class="o">=</span> <span class="mi">256</span>
 <span class="c1"># RNN Size</span>
@@ -12632,7 +12628,7 @@ Default GPU Device: /gpu:0
 <span class="c1"># Learning Rate</span>
 <span class="n">learning_rate</span> <span class="o">=</span> <span class="mf">0.001</span>
 <span class="c1"># Show stats for every n number of batches</span>
-<span class="n">show_every_n_batches</span> <span class="o">=</span> <span class="mi">250</span>
+<span class="n">show_every_n_batches</span> <span class="o">=</span> <span class="mi">50</span>
 
 <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">DON&#39;T MODIFY ANYTHING IN THIS CELL THAT IS BELOW THIS LINE</span>
@@ -12645,12 +12641,12 @@ Default GPU Device: /gpu:0
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Modified-Build-Graph-and-Train---Writing-cost-to-summary-FileWriter">Modified Build Graph and Train - Writing cost to summary FileWriter<a class="anchor-link" href="#Modified-Build-Graph-and-Train---Writing-cost-to-summary-FileWriter">&#182;</a></h2>
+<h3 id="Build-the-Graph">Build the Graph<a class="anchor-link" href="#Build-the-Graph">&#182;</a></h3><p>Build the graph using the neural network you implemented.</p>
+
 </div>
 </div>
 </div>
@@ -12674,15 +12670,13 @@ Default GPU Device: /gpu:0
 
     <span class="c1"># Probabilities for generating words</span>
     <span class="n">probs</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">softmax</span><span class="p">(</span><span class="n">logits</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;probs&#39;</span><span class="p">)</span>
-    
+
     <span class="c1"># Loss function</span>
     <span class="n">cost</span> <span class="o">=</span> <span class="n">seq2seq</span><span class="o">.</span><span class="n">sequence_loss</span><span class="p">(</span>
         <span class="n">logits</span><span class="p">,</span>
         <span class="n">targets</span><span class="p">,</span>
         <span class="n">tf</span><span class="o">.</span><span class="n">ones</span><span class="p">([</span><span class="n">input_data_shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">input_data_shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]]))</span>
-    <span class="n">tf</span><span class="o">.</span><span class="n">summary</span><span class="o">.</span><span class="n">scalar</span><span class="p">(</span><span class="s1">&#39;cost&#39;</span><span class="p">,</span> <span class="n">cost</span><span class="p">)</span>
-    
-    <span class="n">merged</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">summary</span><span class="o">.</span><span class="n">merge_all</span><span class="p">()</span>
+
     <span class="c1"># Optimizer</span>
     <span class="n">optimizer</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">train</span><span class="o">.</span><span class="n">AdamOptimizer</span><span class="p">(</span><span class="n">lr</span><span class="p">)</span>
 
@@ -12690,14 +12684,21 @@ Default GPU Device: /gpu:0
     <span class="n">gradients</span> <span class="o">=</span> <span class="n">optimizer</span><span class="o">.</span><span class="n">compute_gradients</span><span class="p">(</span><span class="n">cost</span><span class="p">)</span>
     <span class="n">capped_gradients</span> <span class="o">=</span> <span class="p">[(</span><span class="n">tf</span><span class="o">.</span><span class="n">clip_by_value</span><span class="p">(</span><span class="n">grad</span><span class="p">,</span> <span class="o">-</span><span class="mf">1.</span><span class="p">,</span> <span class="mf">1.</span><span class="p">),</span> <span class="n">var</span><span class="p">)</span> <span class="k">for</span> <span class="n">grad</span><span class="p">,</span> <span class="n">var</span> <span class="ow">in</span> <span class="n">gradients</span> <span class="k">if</span> <span class="n">grad</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">]</span>
     <span class="n">train_op</span> <span class="o">=</span> <span class="n">optimizer</span><span class="o">.</span><span class="n">apply_gradients</span><span class="p">(</span><span class="n">capped_gradients</span><span class="p">)</span>
-    <span class="n">writer</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">summary</span><span class="o">.</span><span class="n">FileWriter</span><span class="p">(</span><span class="s1">&#39;logs/2&#39;</span><span class="p">)</span>
-    
 </pre></div>
 
 </div>
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Train">Train<a class="anchor-link" href="#Train">&#182;</a></h2><p>Train the neural network on the preprocessed data.  If you have a hard time getting a good loss, check the <a href="https://discussions.udacity.com/">forums</a> to see if anyone is having the same problem.</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -12713,8 +12714,6 @@ Default GPU Device: /gpu:0
     
     <span class="n">sess</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">global_variables_initializer</span><span class="p">())</span>
     
-    <span class="n">writer</span><span class="o">.</span><span class="n">add_graph</span><span class="p">(</span><span class="n">sess</span><span class="o">.</span><span class="n">graph</span><span class="p">)</span>
-    
     <span class="k">for</span> <span class="n">epoch_i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_epochs</span><span class="p">):</span>
         <span class="n">state</span> <span class="o">=</span> <span class="n">sess</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">initial_state</span><span class="p">,</span> <span class="p">{</span><span class="n">input_text</span><span class="p">:</span> <span class="n">batches</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]})</span>
 
@@ -12724,13 +12723,15 @@ Default GPU Device: /gpu:0
                 <span class="n">targets</span><span class="p">:</span> <span class="n">y</span><span class="p">,</span>
                 <span class="n">initial_state</span><span class="p">:</span> <span class="n">state</span><span class="p">,</span>
                 <span class="n">lr</span><span class="p">:</span> <span class="n">learning_rate</span><span class="p">}</span>
-            <span class="n">train_loss</span><span class="p">,</span> <span class="n">state</span><span class="p">,</span> <span class="n">_</span> <span class="p">,</span> <span class="n">summary</span> <span class="o">=</span> <span class="n">sess</span><span class="o">.</span><span class="n">run</span><span class="p">([</span><span class="n">cost</span><span class="p">,</span> <span class="n">final_state</span><span class="p">,</span> <span class="n">train_op</span><span class="p">,</span> <span class="n">merged</span><span class="p">],</span> <span class="n">feed</span><span class="p">)</span>
+            <span class="n">train_loss</span><span class="p">,</span> <span class="n">state</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">sess</span><span class="o">.</span><span class="n">run</span><span class="p">([</span><span class="n">cost</span><span class="p">,</span> <span class="n">final_state</span><span class="p">,</span> <span class="n">train_op</span><span class="p">],</span> <span class="n">feed</span><span class="p">)</span>
 
             <span class="c1"># Show every &lt;show_every_n_batches&gt; batches</span>
-            <span class="k">if</span> <span class="n">batch_i</span><span class="o">%</span><span class="k">20</span>== 0:
-                    
-                    <span class="n">writer</span><span class="o">.</span><span class="n">add_summary</span><span class="p">(</span><span class="n">summary</span><span class="p">,</span> <span class="n">batch_i</span><span class="p">)</span>
-                    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Epoch </span><span class="si">%d</span><span class="s1">, Step </span><span class="si">%d</span><span class="s1">, training loss </span><span class="si">%g</span><span class="s1">&#39;</span> <span class="o">%</span><span class="p">(</span><span class="n">epoch_i</span><span class="p">,</span> <span class="n">batch_i</span><span class="p">,</span> <span class="n">train_loss</span><span class="p">))</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">epoch_i</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">batches</span><span class="p">)</span> <span class="o">+</span> <span class="n">batch_i</span><span class="p">)</span> <span class="o">%</span> <span class="n">show_every_n_batches</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Epoch </span><span class="si">{:&gt;3}</span><span class="s1"> Batch </span><span class="si">{:&gt;4}</span><span class="s1">/</span><span class="si">{}</span><span class="s1">   train_loss = </span><span class="si">{:.3f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                    <span class="n">epoch_i</span><span class="p">,</span>
+                    <span class="n">batch_i</span><span class="p">,</span>
+                    <span class="nb">len</span><span class="p">(</span><span class="n">batches</span><span class="p">),</span>
+                    <span class="n">train_loss</span><span class="p">))</span>
 
     <span class="c1"># Save Model</span>
     <span class="n">saver</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">train</span><span class="o">.</span><span class="n">Saver</span><span class="p">()</span>
@@ -12747,209 +12748,99 @@ Default GPU Device: /gpu:0
 
 
 <div class="output_area">
+
 <div class="prompt"></div>
 
+
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Epoch 0, Step 0, training loss 8.83698
-Epoch 0, Step 20, training loss 6.28274
-Epoch 1, Step 0, training loss 6.04188
-Epoch 1, Step 20, training loss 5.73743
-Epoch 2, Step 0, training loss 5.52662
-Epoch 2, Step 20, training loss 5.49475
-Epoch 3, Step 0, training loss 5.28648
-Epoch 3, Step 20, training loss 5.31642
-Epoch 4, Step 0, training loss 5.103
-Epoch 4, Step 20, training loss 5.17533
-Epoch 5, Step 0, training loss 4.95083
-Epoch 5, Step 20, training loss 5.06048
-Epoch 6, Step 0, training loss 4.83614
-Epoch 6, Step 20, training loss 4.94484
-Epoch 7, Step 0, training loss 4.72496
-Epoch 7, Step 20, training loss 4.84477
-Epoch 8, Step 0, training loss 4.615
-Epoch 8, Step 20, training loss 4.75796
-Epoch 9, Step 0, training loss 4.52702
-Epoch 9, Step 20, training loss 4.65207
-Epoch 10, Step 0, training loss 4.44413
-Epoch 10, Step 20, training loss 4.55599
-Epoch 11, Step 0, training loss 4.3432
-Epoch 11, Step 20, training loss 4.48391
-Epoch 12, Step 0, training loss 4.25842
-Epoch 12, Step 20, training loss 4.39352
-Epoch 13, Step 0, training loss 4.18516
-Epoch 13, Step 20, training loss 4.32961
-Epoch 14, Step 0, training loss 4.10885
-Epoch 14, Step 20, training loss 4.25318
-Epoch 15, Step 0, training loss 4.04379
-Epoch 15, Step 20, training loss 4.17581
-Epoch 16, Step 0, training loss 3.97958
-Epoch 16, Step 20, training loss 4.09031
-Epoch 17, Step 0, training loss 3.88959
-Epoch 17, Step 20, training loss 4.03459
-Epoch 18, Step 0, training loss 3.79642
-Epoch 18, Step 20, training loss 3.9627
-Epoch 19, Step 0, training loss 3.74116
-Epoch 19, Step 20, training loss 3.8655
-Epoch 20, Step 0, training loss 3.66206
-Epoch 20, Step 20, training loss 3.809
-Epoch 21, Step 0, training loss 3.57227
-Epoch 21, Step 20, training loss 3.7232
-Epoch 22, Step 0, training loss 3.51289
-Epoch 22, Step 20, training loss 3.65989
-Epoch 23, Step 0, training loss 3.43891
-Epoch 23, Step 20, training loss 3.5767
-Epoch 24, Step 0, training loss 3.38103
-Epoch 24, Step 20, training loss 3.5559
-Epoch 25, Step 0, training loss 3.29808
-Epoch 25, Step 20, training loss 3.46565
-Epoch 26, Step 0, training loss 3.2307
-Epoch 26, Step 20, training loss 3.40897
-Epoch 27, Step 0, training loss 3.14665
-Epoch 27, Step 20, training loss 3.31823
-Epoch 28, Step 0, training loss 3.05907
-Epoch 28, Step 20, training loss 3.26584
-Epoch 29, Step 0, training loss 3.01732
-Epoch 29, Step 20, training loss 3.23345
-Epoch 30, Step 0, training loss 2.97466
-Epoch 30, Step 20, training loss 3.17062
-Epoch 31, Step 0, training loss 2.89659
-Epoch 31, Step 20, training loss 3.07969
-Epoch 32, Step 0, training loss 2.82657
-Epoch 32, Step 20, training loss 3.0377
-Epoch 33, Step 0, training loss 2.77741
-Epoch 33, Step 20, training loss 2.9781
-Epoch 34, Step 0, training loss 2.69268
-Epoch 34, Step 20, training loss 2.90659
-Epoch 35, Step 0, training loss 2.67195
-Epoch 35, Step 20, training loss 2.86431
-Epoch 36, Step 0, training loss 2.60784
-Epoch 36, Step 20, training loss 2.80416
-Epoch 37, Step 0, training loss 2.52852
-Epoch 37, Step 20, training loss 2.77401
-Epoch 38, Step 0, training loss 2.48125
-Epoch 38, Step 20, training loss 2.68671
-Epoch 39, Step 0, training loss 2.42373
-Epoch 39, Step 20, training loss 2.63048
-Epoch 40, Step 0, training loss 2.38729
-Epoch 40, Step 20, training loss 2.59422
-Epoch 41, Step 0, training loss 2.30366
-Epoch 41, Step 20, training loss 2.54164
-Epoch 42, Step 0, training loss 2.27225
-Epoch 42, Step 20, training loss 2.48998
-Epoch 43, Step 0, training loss 2.23622
-Epoch 43, Step 20, training loss 2.45533
-Epoch 44, Step 0, training loss 2.18382
-Epoch 44, Step 20, training loss 2.40803
-Epoch 45, Step 0, training loss 2.14374
-Epoch 45, Step 20, training loss 2.37976
-Epoch 46, Step 0, training loss 2.09086
-Epoch 46, Step 20, training loss 2.31775
-Epoch 47, Step 0, training loss 2.06141
-Epoch 47, Step 20, training loss 2.27777
-Epoch 48, Step 0, training loss 2.02304
-Epoch 48, Step 20, training loss 2.25472
-Epoch 49, Step 0, training loss 1.96502
-Epoch 49, Step 20, training loss 2.25368
-Epoch 50, Step 0, training loss 1.95267
-Epoch 50, Step 20, training loss 2.2007
-Epoch 51, Step 0, training loss 1.93535
-Epoch 51, Step 20, training loss 2.17752
-Epoch 52, Step 0, training loss 1.88434
-Epoch 52, Step 20, training loss 2.14248
-Epoch 53, Step 0, training loss 1.8593
-Epoch 53, Step 20, training loss 2.10119
-Epoch 54, Step 0, training loss 1.81524
-Epoch 54, Step 20, training loss 2.06398
-Epoch 55, Step 0, training loss 1.81587
-Epoch 55, Step 20, training loss 2.04395
-Epoch 56, Step 0, training loss 1.77155
-Epoch 56, Step 20, training loss 2.02211
-Epoch 57, Step 0, training loss 1.73495
-Epoch 57, Step 20, training loss 1.9934
-Epoch 58, Step 0, training loss 1.72125
-Epoch 58, Step 20, training loss 1.98093
-Epoch 59, Step 0, training loss 1.69063
-Epoch 59, Step 20, training loss 1.96251
-Epoch 60, Step 0, training loss 1.69455
-Epoch 60, Step 20, training loss 1.93367
-Epoch 61, Step 0, training loss 1.67
-Epoch 61, Step 20, training loss 1.91003
-Epoch 62, Step 0, training loss 1.64467
-Epoch 62, Step 20, training loss 1.90231
-Epoch 63, Step 0, training loss 1.62686
-Epoch 63, Step 20, training loss 1.87406
-Epoch 64, Step 0, training loss 1.59877
-Epoch 64, Step 20, training loss 1.84537
-Epoch 65, Step 0, training loss 1.59058
-Epoch 65, Step 20, training loss 1.84161
-Epoch 66, Step 0, training loss 1.56327
-Epoch 66, Step 20, training loss 1.84196
-Epoch 67, Step 0, training loss 1.57071
-Epoch 67, Step 20, training loss 1.80785
-Epoch 68, Step 0, training loss 1.54841
-Epoch 68, Step 20, training loss 1.83676
-Epoch 69, Step 0, training loss 1.54353
-Epoch 69, Step 20, training loss 1.79708
-Epoch 70, Step 0, training loss 1.54038
-Epoch 70, Step 20, training loss 1.78454
-Epoch 71, Step 0, training loss 1.50751
-Epoch 71, Step 20, training loss 1.77228
-Epoch 72, Step 0, training loss 1.4966
-Epoch 72, Step 20, training loss 1.75522
-Epoch 73, Step 0, training loss 1.48894
-Epoch 73, Step 20, training loss 1.75203
-Epoch 74, Step 0, training loss 1.47993
-Epoch 74, Step 20, training loss 1.73583
-Epoch 75, Step 0, training loss 1.46256
-Epoch 75, Step 20, training loss 1.72921
-Epoch 76, Step 0, training loss 1.45078
-Epoch 76, Step 20, training loss 1.72423
-Epoch 77, Step 0, training loss 1.44272
-Epoch 77, Step 20, training loss 1.709
-Epoch 78, Step 0, training loss 1.44535
-Epoch 78, Step 20, training loss 1.70683
-Epoch 79, Step 0, training loss 1.42865
-Epoch 79, Step 20, training loss 1.68667
-Epoch 80, Step 0, training loss 1.42846
-Epoch 80, Step 20, training loss 1.68639
-Epoch 81, Step 0, training loss 1.41669
-Epoch 81, Step 20, training loss 1.67741
-Epoch 82, Step 0, training loss 1.41167
-Epoch 82, Step 20, training loss 1.68306
-Epoch 83, Step 0, training loss 1.41577
-Epoch 83, Step 20, training loss 1.68203
-Epoch 84, Step 0, training loss 1.3997
-Epoch 84, Step 20, training loss 1.67249
-Epoch 85, Step 0, training loss 1.39776
-Epoch 85, Step 20, training loss 1.67438
-Epoch 86, Step 0, training loss 1.396
-Epoch 86, Step 20, training loss 1.66756
-Epoch 87, Step 0, training loss 1.39409
-Epoch 87, Step 20, training loss 1.65966
-Epoch 88, Step 0, training loss 1.39035
-Epoch 88, Step 20, training loss 1.65352
-Epoch 89, Step 0, training loss 1.39792
-Epoch 89, Step 20, training loss 1.66001
-Epoch 90, Step 0, training loss 1.38663
-Epoch 90, Step 20, training loss 1.65311
-Epoch 91, Step 0, training loss 1.38121
-Epoch 91, Step 20, training loss 1.65242
-Epoch 92, Step 0, training loss 1.37129
-Epoch 92, Step 20, training loss 1.642
-Epoch 93, Step 0, training loss 1.37101
-Epoch 93, Step 20, training loss 1.63436
-Epoch 94, Step 0, training loss 1.36164
-Epoch 94, Step 20, training loss 1.63836
-Epoch 95, Step 0, training loss 1.37526
-Epoch 95, Step 20, training loss 1.63242
-Epoch 96, Step 0, training loss 1.35214
-Epoch 96, Step 20, training loss 1.63227
-Epoch 97, Step 0, training loss 1.36267
-Epoch 97, Step 20, training loss 1.633
-Epoch 98, Step 0, training loss 1.35751
-Epoch 98, Step 20, training loss 1.62623
-Epoch 99, Step 0, training loss 1.3492
-Epoch 99, Step 20, training loss 1.6205
+<pre>Epoch   0 Batch    0/22   train_loss = 8.835
+Epoch   2 Batch    6/22   train_loss = 5.321
+Epoch   4 Batch   12/22   train_loss = 4.867
+Epoch   6 Batch   18/22   train_loss = 4.517
+Epoch   9 Batch    2/22   train_loss = 4.054
+Epoch  11 Batch    8/22   train_loss = 3.785
+Epoch  13 Batch   14/22   train_loss = 3.496
+Epoch  15 Batch   20/22   train_loss = 3.147
+Epoch  18 Batch    4/22   train_loss = 2.809
+Epoch  20 Batch   10/22   train_loss = 2.587
+Epoch  22 Batch   16/22   train_loss = 2.375
+Epoch  25 Batch    0/22   train_loss = 2.124
+Epoch  27 Batch    6/22   train_loss = 1.925
+Epoch  29 Batch   12/22   train_loss = 1.725
+Epoch  31 Batch   18/22   train_loss = 1.636
+Epoch  34 Batch    2/22   train_loss = 1.512
+Epoch  36 Batch    8/22   train_loss = 1.263
+Epoch  38 Batch   14/22   train_loss = 1.202
+Epoch  40 Batch   20/22   train_loss = 1.072
+Epoch  43 Batch    4/22   train_loss = 0.971
+Epoch  45 Batch   10/22   train_loss = 0.900
+Epoch  47 Batch   16/22   train_loss = 0.818
+Epoch  50 Batch    0/22   train_loss = 0.777
+Epoch  52 Batch    6/22   train_loss = 0.719
+Epoch  54 Batch   12/22   train_loss = 0.696
+Epoch  56 Batch   18/22   train_loss = 0.625
+Epoch  59 Batch    2/22   train_loss = 0.603
+Epoch  61 Batch    8/22   train_loss = 0.514
+Epoch  63 Batch   14/22   train_loss = 0.519
+Epoch  65 Batch   20/22   train_loss = 0.475
+Epoch  68 Batch    4/22   train_loss = 0.477
+Epoch  70 Batch   10/22   train_loss = 0.471
+Epoch  72 Batch   16/22   train_loss = 0.452
+Epoch  75 Batch    0/22   train_loss = 0.438
+Epoch  77 Batch    6/22   train_loss = 0.421
+Epoch  79 Batch   12/22   train_loss = 0.422
+Epoch  81 Batch   18/22   train_loss = 0.402
+Epoch  84 Batch    2/22   train_loss = 0.412
+Epoch  86 Batch    8/22   train_loss = 0.384
+Epoch  88 Batch   14/22   train_loss = 0.380
+Epoch  90 Batch   20/22   train_loss = 0.362
+Epoch  93 Batch    4/22   train_loss = 0.387
+Epoch  95 Batch   10/22   train_loss = 0.382
+Epoch  97 Batch   16/22   train_loss = 0.367
+Epoch 100 Batch    0/22   train_loss = 0.375
+Epoch 102 Batch    6/22   train_loss = 0.364
+Epoch 104 Batch   12/22   train_loss = 0.369
+Epoch 106 Batch   18/22   train_loss = 0.348
+Epoch 109 Batch    2/22   train_loss = 0.361
+Epoch 111 Batch    8/22   train_loss = 0.334
+Epoch 113 Batch   14/22   train_loss = 0.344
+Epoch 115 Batch   20/22   train_loss = 0.333
+Epoch 118 Batch    4/22   train_loss = 0.356
+Epoch 120 Batch   10/22   train_loss = 0.353
+Epoch 122 Batch   16/22   train_loss = 0.335
+Epoch 125 Batch    0/22   train_loss = 0.354
+Epoch 127 Batch    6/22   train_loss = 0.338
+Epoch 129 Batch   12/22   train_loss = 0.352
+Epoch 131 Batch   18/22   train_loss = 0.331
+Epoch 134 Batch    2/22   train_loss = 0.343
+Epoch 136 Batch    8/22   train_loss = 0.313
+Epoch 138 Batch   14/22   train_loss = 0.329
+Epoch 140 Batch   20/22   train_loss = 0.311
+Epoch 143 Batch    4/22   train_loss = 0.329
+Epoch 145 Batch   10/22   train_loss = 0.342
+Epoch 147 Batch   16/22   train_loss = 0.322
+Epoch 150 Batch    0/22   train_loss = 0.322
+Epoch 152 Batch    6/22   train_loss = 0.321
+Epoch 154 Batch   12/22   train_loss = 0.330
+Epoch 156 Batch   18/22   train_loss = 0.311
+Epoch 159 Batch    2/22   train_loss = 0.335
+Epoch 161 Batch    8/22   train_loss = 0.319
+Epoch 163 Batch   14/22   train_loss = 0.320
+Epoch 165 Batch   20/22   train_loss = 0.310
+Epoch 168 Batch    4/22   train_loss = 0.328
+Epoch 170 Batch   10/22   train_loss = 0.328
+Epoch 172 Batch   16/22   train_loss = 0.322
+Epoch 175 Batch    0/22   train_loss = 0.328
+Epoch 177 Batch    6/22   train_loss = 0.322
+Epoch 179 Batch   12/22   train_loss = 0.333
+Epoch 181 Batch   18/22   train_loss = 0.309
+Epoch 184 Batch    2/22   train_loss = 0.326
+Epoch 186 Batch    8/22   train_loss = 0.309
+Epoch 188 Batch   14/22   train_loss = 0.311
+Epoch 190 Batch   20/22   train_loss = 0.298
+Epoch 193 Batch    4/22   train_loss = 0.335
+Epoch 195 Batch   10/22   train_loss = 0.326
+Epoch 197 Batch   16/22   train_loss = 0.320
 Model Trained and Saved
 </pre>
 </div>
@@ -12959,8 +12850,7 @@ Model Trained and Saved
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -12986,8 +12876,7 @@ Model Trained and Saved
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13017,8 +12906,7 @@ Model Trained and Saved
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13045,7 +12933,7 @@ Model Trained and Saved
 <span class="sd">    :param loaded_graph: TensorFlow graph loaded from file</span>
 <span class="sd">    :return: Tuple (InputTensor, InitialStateTensor, FinalStateTensor, ProbsTensor)</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="c1"># TODO: Implement Function</span>
+    
     <span class="n">InputTensor</span> <span class="o">=</span> <span class="n">loaded_graph</span><span class="o">.</span><span class="n">get_tensor_by_name</span><span class="p">(</span><span class="s2">&quot;input:0&quot;</span><span class="p">)</span>
     <span class="n">InitialStateTensor</span> <span class="o">=</span> <span class="n">loaded_graph</span><span class="o">.</span><span class="n">get_tensor_by_name</span><span class="p">(</span><span class="s2">&quot;initial_state:0&quot;</span><span class="p">)</span>
     <span class="n">FinalStateTensor</span> <span class="o">=</span> <span class="n">loaded_graph</span><span class="o">.</span><span class="n">get_tensor_by_name</span><span class="p">(</span><span class="s2">&quot;final_state:0&quot;</span><span class="p">)</span>
@@ -13069,7 +12957,9 @@ Model Trained and Saved
 
 
 <div class="output_area">
+
 <div class="prompt"></div>
+
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Tests Passed
@@ -13081,8 +12971,7 @@ Model Trained and Saved
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13123,7 +13012,9 @@ Model Trained and Saved
 
 
 <div class="output_area">
+
 <div class="prompt"></div>
+
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Tests Passed
@@ -13135,8 +13026,7 @@ Model Trained and Saved
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13205,22 +13095,29 @@ Model Trained and Saved
 
 
 <div class="output_area">
+
 <div class="prompt"></div>
 
+
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>moe_szyslak: yeah, how far do they go back?
-lenny_leonard: six about that...
-moe_szyslak:(into phone) yeah-- oh yeah!
-marge_simpson: you, moe?
-homer_simpson: moe, i was just thinking.
-moe_szyslak:(realizing, to sound) what kind of your daughter.
-chief_wiggum:(looking at watch) oh homer, i&#39;m the best book out of, all right, i&#39;ve been using. you can see, government...
-chief_wiggum: well, if you like this is gonna be my best friend you&#39;ve got the baby of a drunk. it&#39;s great, moe? you shouldn&#39;t have my ma back.
-moe_szyslak: hey, i don&#39;t need no advice from no. i&#39;m gonna go and, uh... what do you do?
-homer_simpson: well, it&#39;s one--(nervous chuckle)
-homer_simpson:(chuckles) all right! just this guy i know one
-moe_szyslak: what are you, i&#39;m gonna do something for your last date, all.
-moe_szyslak:(lowering out of the minute.
+<pre>moe_szyslak:(gets idea) actually homer...
+homer_simpson:(flatly) yeah.
+marge_simpson:(sings) ing...
+
+
+homer_simpson:(loud) hey, moe, you know you&#39;re a guy like me!
+moe_szyslak: whoa, now you tell me!
+homer_simpson: i&#39;m sorry.
+homer_simpson:(surprised) championship?
+homer_simpson: wooooo! &#39;topes!(sips beer) hey, moe!
+barney_gumble:(pained noise)
+lenny_leonard: well, we can&#39;t find a new life.
+moe_szyslak: eh, well, okay, you want come on?
+lenny_leonard:(sings) good.
+homer_simpson:(loud) hey man, i know a good one i got an old but it&#39;s not like there&#39;s years you&#39;re in. you&#39;ve got a great of who you can, homer.
+seymour_skinner: i say.
+homer_simpson: i&#39;ve never get my dad gave that guy. then that has sent to their time.. it was the nice, and you could be that starts...
+moe_szyslak: yeah, he was let me
 </pre>
 </div>
 </div>
@@ -13229,8 +13126,7 @@ moe_szyslak:(lowering out of the minute.
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
